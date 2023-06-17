@@ -1,0 +1,198 @@
+body{
+    background-image: url(./images/bg-desktop.png);
+    background-color:  hsl(229, 57%, 11%);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: grid;
+    place-items: center;
+    font-family: Raleway;
+    width: auto;
+}
+.container{
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    display: grid ;
+    grid-template-areas: 
+                        "container1 .........."
+                        "container1 container2";               
+    gap: 25px;
+    place-content: center;
+}
+.container1{
+    grid-area: container1;
+    width: 250px;
+    height: 110px;
+    background-color: hsl(228, 56%, 26%);
+    padding: 40px 40px;
+    border-radius:  10px 100px 10px 10px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icon-container{
+    display: flex;
+    gap: 1em;
+}
+.icon{
+    display: grid;
+    place-content: center;
+    
+    background-color: hsl(229, 57%, 11%); 
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.container2{
+    position: relative;
+    grid-area: container2;
+    width: 500px;
+    height: 73px;
+    background-color: hsl(228, 56%, 26%);
+    padding: 40px 40px;
+    border-radius: 10px;
+    color: white;
+    
+}
+.info {
+    color: hsl(243, 100%, 93%);
+}
+
+.loadbar{
+    display: grid;
+    align-items: center;
+    width: 500px;
+    height: 15px;
+    border-radius: 20px;
+    background-color:  hsla(229, 57%, 11%,0.5);
+    padding-left: 3px;
+    margin-top: 0.5em;
+}
+
+.loadbarin{
+    width: 406px;
+    height: 10px;
+    background-color:  hsl(6, 100%, 80%);
+    background-size: 407.5px 10px;
+    background-image:  linear-gradient(to right,hsl(6, 100%, 80%) , hsl(335, 98%, 49%));
+    border-radius: 20px;
+    
+}
+.circle{
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    float: right;
+    margin-top: 0.9px;
+    margin-right: 1.5px;
+}
+.balance{
+    display: grid;
+    place-content: center;
+    color: black;
+    background: white;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    width: 12rem;
+    height: 3rem;
+    padding: 1rem .25rem;
+    position: absolute;
+    right: 40px;
+    top: -10px;
+    transform: translateY(-50%);
+  }
+.triangle{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    right:0%;
+    top: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+.text{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 0.75rem;
+    font-size: small;
+    letter-spacing: 1px;
+    color: hsl(229, 7%, 55%);
+}
+.text span{
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(229, 57%, 11%);
+}
+
+.range {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 890px){
+    body{
+        background: url("images/bg-mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color:hsl(229, 57%, 11%);
+
+        margin: 1.5em;
+    }
+.container{
+    display: flex;
+    flex-direction: column;
+
+    align-items: stretch;
+}
+
+.container2{
+    width: fit-content;
+    height: 86px;
+    padding: 40px 24px;
+}
+.loadbar{
+    width: 280px;
+    min-height: 18px;
+    margin-right: 0px;
+ }
+.loadbarin{
+    min-height: 12px;
+    width: 70%;
+ }
+ .circle {
+    width: 10px;
+    height: 10px;
+    margin-top: 0.5px;
+ }
+.balance{
+        border-radius: 10px;
+        width: 144px;
+        height: 32px;
+        padding: 1rem .5rem;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+.text{
+       font-size: 0.75rem;
+}
+.text span{  
+      font-size: 36px;
+}
+.triangle{
+        display: none;
+}
+.info {
+    font-size: .925rem;
+    text-align: center;
+
+    margin-bottom: 1em;
+}
+
+}
