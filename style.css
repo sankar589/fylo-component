@@ -124,7 +124,7 @@ body{
     letter-spacing: 1px;
     color: hsl(229, 7%, 55%);
 }
-.text span{
+.text > h1{
     font-weight: 700;
     font-size: 40px;
     color: hsl(229, 57%, 11%);
