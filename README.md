@@ -37,5 +37,5 @@ The designs were created to the following widths:
 
 # Author
 
-- Github - [sankar589](https://www.your-site.com)
+- Github - [sankar589](https://github.com/sankar589)
 - Frontend Mentor - [sankar589](https://www.frontendmentor.io/profile/sankar589)
