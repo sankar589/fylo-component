@@ -37,5 +37,5 @@ The designs were created to the following widths:
 
 # Author
 
-- Github - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Github - [sankar589](https://www.your-site.com)
+- Frontend Mentor - [sankar589](https://www.frontendmentor.io/profile/yourusername)
