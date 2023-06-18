@@ -38,4 +38,4 @@ The designs were created to the following widths:
 # Author
 
 - Github - [sankar589](https://www.your-site.com)
-- Frontend Mentor - [sankar589](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [sankar589](https://www.frontendmentor.io/profile/sankar589)
